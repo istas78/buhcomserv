@@ -1,0 +1,55 @@
+.pres-container{
+    background: url("../../images/pres-background.jpg") center center/ cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2);
+    object-fit: contain;
+    margin-top: -80px;
+}
+
+.pres-container > h1 {
+    color: #0000FF;
+    font-size: 100px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.pres-container > h2 {
+    color: #0000FF;
+    font-size: 100px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.pres-container > b {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.pres-btns {
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 960px){
+    .pres-container > h1{
+        font-size: 70px;
+    }
+    .pres-container > h2{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .pres-container > h1{
+        font-size: 60px;
+    }
+    .pres-container > h2{
+        font-size: 50px;
+    }
+}
